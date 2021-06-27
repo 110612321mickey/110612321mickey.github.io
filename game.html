@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/github-gist.min.css"
         integrity="sha512-od7JLoOTxM8w/HSKGzP9Kexc20K9p/M2zxSWsd7H1e4Ctf+8SQFtCWEZnW5u6ul5ehSECa5QmOk9ju2nQMmlVA=="
         crossorigin="anonymous" />
-
     <link rel="stylesheet" href="app.css" />
 </head>
 
@@ -25,17 +24,13 @@
         <li><a href="game.html">猜數字遊戲(推薦)</a></li>
     </ul>
     <main>
-        <p>Week 1</p><pre><code id="note1"></code></pre>
-        <p>Week 2</p><pre><code id="note2"></code></pre>
-        <p>Week 3</p><pre><code id="note3"></code></pre>
-        <p>Week 4</p><pre><code id="note4"></code></pre>
-        <p>Week 5</p><pre><code id="note5"></code></pre>
-        <p>Week 6</p><pre><code id="note6"></code></pre>
-        <p>Week 7</p><pre><code id="note7"></code></pre>
-        <p>Week 8</p><pre><code id="note8"></code></pre>
-        <p>Week 9</p><pre><code id="note9"></code></pre>
+        <p>這是一個猜數字遊戲，如果猜對一個數字且位置相同，則得1A。如果猜對一個數字，但是位置不同，則得1B。目標是猜數得4A。程式碼內容為原創！</p>
+        <div id="game_message"></div>
+        <input id="p_guess" type="text" maxlength="4" placeholder="請輸入四位數字" />
+        <button id="c_answer" type="button">Guess</button>
     </main>
     <script src="app.js"></script>
+    <script src="game.js"></script>
 </body>
 
 </html>
